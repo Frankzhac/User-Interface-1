@@ -1,8 +1,7 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -12,8 +11,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +23,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +63,94 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+nav {
+	  display: inline-block;
+    width: 70%;
+    height: inherit;
+    padding-top: 15px;
+}
+
+nav a {
+	margin: auto;
+	margin-top: 50px;
+	padding: 50px;
+	color: grey;
+	text-decoration: none;
+	height: inherit;
+}
+
+nav a:first-child {
+	padding-left: 0;
+}
+
+.logo {
+	float: right;
+	margin-left: 10px;
+}
+
+header {
+	height: 540px;
+  margin-top: 45px;
+}
+
+.header {
+	display: inline-block;
+  vertical-align: top;
+  font-size: 78px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 75px;
+}
+
+.header-img {
+	float: right;
+	display: inline-block;
+}
+
+.first-half,
+.second-half {
+  display: inline-block;
+  margin: 48px 0px;
+}
+
+.middle-img {
+	display: block;
+	padding-top: 20px;
+	width: inherit;
+	height: inherit;
+}
+
+.first-half-content,
+.second-half-content {
+	display: inline-block;
+  margin-right: 15px;
+}
+
+.first-half-content {
+	vertical-align: top;
+	width: 45.5%;
+}
+
+.second-half-content {
+	width: 30%;
+}
+
+.contact {
+  margin-top: 20px;
+  padding: 39px 10px 0;
+}
+
+.contact p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
